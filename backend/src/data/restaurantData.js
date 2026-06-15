@@ -9,7 +9,7 @@ const data = [
     {
         restaurant: "Sweet Sensation",
         area: "Akowonjo",
-        address: "Akowonjo, Egbeda Road, Lagos",
+        address: "Akowonjo,Egbeda Road, Lagos",
         budget: "low",
         menu: ["Jam Doughnut", "Meat Pie", "Beefy Jollof Rice and Meat", "Chicken Pie"]
     },
