@@ -1,4 +1,4 @@
-const data = [
+const restaurantData = [
     {
         restaurant: "Chicken Republic",
         area: "Ikeja",
@@ -15,4 +15,4 @@ const data = [
     },
 ]
 
-export default data;
+export default restaurantData;
