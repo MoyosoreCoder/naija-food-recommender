@@ -1,16 +1,17 @@
 import restaurantInfo from '../data/restaurantData.js'
 
-const getRecommendation = ({food, budget}) => {
-    //user typed budget and food, return restaurant and location
-    //using same data to check through user food and budget
-    const budgetResponse = restaurantInfo.filter(restaurant => {
+const getRecommedation = ({food, userBudget}) => {
 
-    
-        restaurant.budget === budget 
-    
-    const foodSearch = restaurantInfo.menu.some(foodList =>
-        food.List=== food)
+    const result = restaurantInfo.filter((data) => {
+        
+        const budgetResult = data.budget === userBudget
+
+        const foodResult = data.menu.some((item)=>{
+                return item.includes((food))
+            })
+        return budgetResult && foodResult
+
     })
-    return budgetResponse && foodSearch
-
+    return result    
 }
+export default getRecommedation;
