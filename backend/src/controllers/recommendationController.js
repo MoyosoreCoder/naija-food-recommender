@@ -1,4 +1,4 @@
-import getRecommedation from '../services/recommendService'
+import getRecommedation from '../services/recommendService.js'
 
 const request = (req, res) => {
    const  { food, userBudget } = req.body
@@ -13,6 +13,7 @@ const request = (req, res) => {
       message: true,
       data: dataResponse
    })
+   console.log (dataResponse)
 
 }
 export default request
