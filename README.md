@@ -16,7 +16,7 @@ This is a full-stack food recommendation application that helps users find resta
 - Express
 
 ### Frontend
-- React
+- normal index.html, style.css, script.js
 
 ### API Endpoint
-- POST  api/recommend
+- POST  api/recommendRestaurant
