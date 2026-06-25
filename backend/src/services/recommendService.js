@@ -6,9 +6,8 @@ const getRecommedation = ({food, userBudget}) => {
         
         const budgetResult = data.budget === userBudget
 
-        const foodResult = data.menu.some((item)=>{
-                return item.includes((food))
-            })
+        const foodResult = data.menu.includes(food)
+        
         return budgetResult && foodResult
 
     })
