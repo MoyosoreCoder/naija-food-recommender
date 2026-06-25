@@ -13,7 +13,6 @@ const request = (req, res) => {
       message: true,
       data: dataResponse
    })
-   console.log (dataResponse)
 
 }
 export default request
