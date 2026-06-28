@@ -1,4 +1,4 @@
-const restaurantData = [
+ const restaurantData = [
     {
         restaurant: "Chicken Republic",
         area: "Ikeja",
